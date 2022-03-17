@@ -1,3 +1,13 @@
+#Positional And Inverted Index-Boolean Model
+-ahsannaqvii , Ahsan Naqvi , <img src="[www.linkedin.com]/[in]?username=[ahsannaqvii]" />
+
+<img alt="React" src="https://img.shields.io/badge/React-React?&style=for-the-badge&logo=react&logoColor=000&color=61DAFB"/>
+<img alt="ReactStrap" src="https://img.shields.io/badge/ReactStrap-ReactStrap?&style=for-the-badge&logo=bootstrap&logoColor=000&color=7952B3"/>   
+<img alt="React Router" src="https://img.shields.io/badge/React%20Router-React%20Router?&style=for-the-badge&logo=react%20router&logoColor=fff&color=CA4245"/>
+##Problem Statement
+Positional and Inverted indexing are different implementations of Boolean Model to resolve boolean queries.These indexing methods produce rankless documents but provides basis to models like Bi-Word indexes , Wild-card queries.
+
+
 #Steps to Execute the FLASK UI
 
 In the Positional and Inverted Index files : 
