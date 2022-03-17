@@ -56,3 +56,5 @@ InvertedIndex1=InvertedIndex.InvertedIndex()
         # count=str(len(data))
        
         content=InvertedIndex1.Retrieve_File_Content(data)
+ ![alt text](http:/home/syedahsan127/Desktopimg.png)
+
