@@ -5,6 +5,7 @@ Positional and Inverted indexing are different implementations of Boolean Model 
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/ahsannaqvii/)
 &nbsp;
+![linked](https://user-images.githubusercontent.com/29493186/158875124-874ec1f8-704f-4e8e-a585-d9dd522918ee.jpeg)
 [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
 
 
