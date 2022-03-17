@@ -1,0 +1,164 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /* box-sizing: border-box; */
+    font-family: 'Rubik';
+    letter-spacing: 3px;
+    background-color:#212121;
+    
+}
+
+
+/* element */
+  
+/* .let_space{
+    letter-spacing: 2px;
+} */
+
+
+/* .c_grid{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 2vmax;
+} */
+   
+.grid{
+    display: grid;
+    grid-gap: 2vmax;
+}
+   
+  
+   
+.box2{
+    grid-template-columns: 1fr 1fr;
+}
+  
+.box3{
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+
+/* element */
+
+.table_cont{
+    overflow-x: scroll;
+    width: 70vw;
+}
+
+table {
+    border-collapse: collapse;
+    letter-spacing: 3px;
+    /* width: 100%; */
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 1vmax;
+    width: fit-content;
+}
+
+form{
+
+    margin: 2vmax 10vmax;
+    padding:3vmax;
+    border: 1px solid #dddddd;
+}
+
+label{
+    /* padding-left:2vmax; */
+    font-size: 1.5vmax;
+    font-style:italic;
+    color:white;
+}
+
+input{
+    padding:1vmax;
+    font-size: 1.3vmax;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+select{
+    padding:1vmax;
+    font-size: 1.3vmax;
+    border: 1px solid #dddddd;
+    outline: none;
+    letter-spacing: 3px;
+}
+
+option{
+    font-size: 1.5vmax;
+    letter-spacing: 3px;
+}
+.file_submit{
+  margin-top: 1vmax;
+  /* border: 1px solid #55acee; */
+  outline: none;
+  background-color: white;
+  color: black;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: 0.3s;
+  text-color:black;
+  letter-spacing: 3px;
+}
+
+.file_submit:hover{
+  background-color: white;
+  color: #55acee
+}
+.welcome-text {
+	/* position: absolute; */
+	width: 600px;
+	/* height: 300px; */
+	margin: 5% 30%;
+	text-align: center;
+}
+.block{
+    background:transparent;
+    border-radius:8px;
+    /* width:60%; */
+    margin-left:40px;
+    margin-top:30px;
+    margin-bottom:60px;
+}
+.con{
+    text-align:center;
+    margin-top:100px;
+    color: white;
+    font-style:italic;
+}
+.con2{
+    overflow:scroll;
+    width:70%;
+    height:200px;
+    background:white;
+    opacity:0.9;
+    margin-bottom:50px;
+    block-size:fit-content(20em);
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #EC407A;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}

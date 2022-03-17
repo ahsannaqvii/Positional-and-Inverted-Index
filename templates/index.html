@@ -1,0 +1,70 @@
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- <link rel="stylesheet" type="text/css" href="../static/index.css">  -->
+    <!-- href="{{ url_for('static', filename='stylesheets/style.css') }}" -->
+    <!-- type="text/css" -->
+    <link rel="stylesheet"   href="{{ url_for('static', filename='css/index.css') }}"> 
+
+
+
+	</head>
+	
+	<body>
+    <div class="welcome-text">
+        <h1>Boolean <span>Model</span></h1>
+        <a href="#">Positional Index</a>
+        <a href="#">Inverted Index</a>
+    </div>
+        <form class="grid" action="/result" method="POST">
+          <label for="name" >Enter your Query:</label>
+          <input type="text" id="name" name="name">
+
+          <center><input class="file_submit" type="Submit"></center>
+          
+        </form>
+         <section class="section">
+          
+      </section>
+      <div class="block">
+        <h1 class="con">{{heading}}</h1> 
+      </div>
+        
+        {% if data %}
+          <center>
+            {# {% set counter = 0 %} #}
+            {% for DOCID in data %}
+            <div class="con2">
+              <h3 style="color: white; color:black;" class="let_space">Document ID : {{DOCID}}</h3>
+              <p>{{content}}</p>
+               {# {% set counter = counter + 1 %} #} 
+            </div>
+            {% endfor %} 
+          </center> 
+
+        {% endif %}
+        <br>
+        <br>
+        <br>
+
+
+    </body>
+
+</html>
+ {#
+  
+  <div class="container">
+     {% for row in data %}
+     {{row}}
+     <div class="columns">
+         {% for column in row %}
+         <div class="column">
+             <p class="notification is-danger">{{ column }}</p>
+         </div>
+         {% endfor %}
+     </div>
+     {% endfor %} 
+    
+ </div>  
+#} 
