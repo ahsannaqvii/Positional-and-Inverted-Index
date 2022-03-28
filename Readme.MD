@@ -1,40 +1,58 @@
-# Inverted and Positional Index
+# Boolean Model-Inverted and Positional Index
 
 ## Description
 While it’s amazing to use the search engine to fulfill your information need, it’s equally important for you to learn the mechanics behind it to obtain accurate results.The Boolean model is based on Boolean logic and set theory operations.The user query is transformed into a boolean expression , written either in conjunctive normal form or disjunctive normal form.Positional and Inverted indexing are different implementations of Boolean Model to resolve boolean queries.These indexing methods produce rankless documents but provides basis to models like Bi-Word indexes , Wild-card queries.
+### FOLLOW ME ON 
 
+
+**ahsannaqvii , Syed Ahsan** ,  [![Linkedin](https://i.stack.imgur.com/gVE0j.png  )](https://www.linkedin.com/in/ahsannaqvii/)
+&nbsp;
+<a href="https://github.com/ahsannaqvii"/>
+<img src="https://i.stack.imgur.com/gVE0j.png" alt="drawing" width="50"/>
+<img src="https://i.stack.imgur.com/tskMh.png" alt="drawing" width="50"/>
+
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/ahsannaqvii)
+## 
 ## About The Project
 This project is based on the implementation of various Boolean Models - Inverted Index and Positional Index in python.Furthermore , to visualize the models , its UI is developed on FLASK.
 
 ## Screenshots
+1. Home page for Inverted and Positional Index
+
+![IRSS1](https://user-images.githubusercontent.com/29493186/160458072-9470128f-2494-4760-b6c8-0964355d6934.png)
+
+2. Inverted Index for Conjunctive boolean query.
+
+![irss1](https://user-images.githubusercontent.com/29493186/160457618-aa1ac5e1-4386-4b8b-8400-187632d19995.png)
+
+3. Results for the above executed query.
+
+![IRss2](https://user-images.githubusercontent.com/29493186/160458066-33dc1b87-c761-43e7-8a02-0cd7d9026519.png)
+
+4.Positional Index(Proximity Query) with output 
+
+![IRss3](https://user-images.githubusercontent.com/29493186/160458070-77a9497d-8620-4419-8bce-8a7be0595e2f.png)
 
 
 
 
-**ahsannaqvii , Syed Ahsan** ,  [![Linkedin](https://i.stack.imgur.com/gVE0j.png )  LinkedIn](https://www.linkedin.com/in/ahsannaqvii/)
-&nbsp;
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/ahsannaqvii)
-## 
 
 
 
-#Steps to Execute the FLASK UI
 
-In the Positional and Inverted Index files : 
-1) Enter the Abstract folder path which contain all the files.
-2) Enter the path for StopWords.txt file.
+## Steps to Execute the FLASK UI and the Positional and Inverted Index code
+_NOTE: The python implementation works together with UI._
 
---If successful , Positional and Inverted indexes will be  made
+1. Download the textual dataset on which you are going to implement the models.
+2. Extract the stopwords file (if you have one of your own)
 
-To show the Indexes and Document on Flask UI:
+To output the Indexes and Document on Flask UI:
 
-1)Create a virtual env
-2)Activate the venv by : source .env/bin/activate
-3)export FLASK_ENVIRONMENT=development
-4)export FLASK_APP=app2.py
-5)FLASK_DEBUG=1 flask run
-
-
+1. _Create a virtual env
+2. Activate the venv by : source .env/bin/activate
+3. export FLASK_ENVIRONMENT=development
+4. export FLASK_APP=app2.py
+5. FLASK_DEBUG=1 flask run_
 
 
 
