@@ -33,11 +33,11 @@ _NOTE: The python implementation works together with UI._
 
 To output the Indexes and Document on Flask UI:
 
-1. _Create a virtual env
-2. Activate the venv by : source .env/bin/activate
-3. export FLASK_ENVIRONMENT=development
-4. export FLASK_APP=app2.py
-5. FLASK_DEBUG=1 flask run_
+1. _Create a virtual env_
+2. _Activate the venv by : source .env/bin/activate_
+3. _export FLASK_ENVIRONMENT=development_
+4. _export FLASK_APP=app2.py_
+5. _FLASK_DEBUG=1 flask run_
 
 ### FOLLOW ME ON 
 <a href="https://github.com/ahsannaqvii">
