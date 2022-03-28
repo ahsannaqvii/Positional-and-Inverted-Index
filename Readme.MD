@@ -1,35 +1,20 @@
-# Pairwise-Sequence-Alignment
+# Inverted and Positional Index
 
-# Problem Statement
-Positional and Inverted indexing are different implementations of Boolean Model to resolve boolean queries.These indexing methods produce rankless documents but provides basis to models like Bi-Word indexes , Wild-card queries.
+## Description
+While it’s amazing to use the search engine to fulfill your information need, it’s equally important for you to learn the mechanics behind it to obtain accurate results.The Boolean model is based on Boolean logic and set theory operations.The user query is transformed into a boolean expression , written either in conjunctive normal form or disjunctive normal form.Positional and Inverted indexing are different implementations of Boolean Model to resolve boolean queries.These indexing methods produce rankless documents but provides basis to models like Bi-Word indexes , Wild-card queries.
 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/ahsannaqvii/)
+## About The Project
+This project is based on the implementation of various Boolean Models - Inverted Index and Positional Index in python.Furthermore , to visualize the models , its UI is developed on FLASK.
+
+## Screenshots
+
+
+
+
+**ahsannaqvii , Syed Ahsan** ,  [![Linkedin](https://i.stack.imgur.com/gVE0j.png )  LinkedIn](https://www.linkedin.com/in/ahsannaqvii/)
 &nbsp;
-![linked](https://user-images.githubusercontent.com/29493186/158875124-874ec1f8-704f-4e8e-a585-d9dd522918ee.jpeg)
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/ahsannaqvii)
+## 
 
 
 
@@ -50,47 +35,6 @@ To show the Indexes and Document on Flask UI:
 5)FLASK_DEBUG=1 flask run
 
 
-NOTE : YOU CANNOT RUN THE PositionalIndex.py and InvertedIndex.py without setting up the Flask config . 
-If you wish to run the PositionalIndex.py without FLASK UI : 
-copy the following into the __main__ of PositionalIndex.py file :
 
- PosIndex=PositionalIndex()
- PosIndex.ReadStopWords()
- for docID in range(1,448): 
-            PosIndex.ReadData(docID)
-            PosIndex.RemovePuncs()
-            PosIndex.StopWordsRemoval()
-            PosIndex.PorterStemmer()
-            PosIndex.Dictionary(docID)
-        
-
-        data=PosIndex.Postings_List_Retrieval(output["name"])
-        print(data)
-       
-        content=PosIndex.Retrieve_File_Content(data)
-        print(content)
-        
-If you wish to run the InvertedIndex.py without FLASK UI : 
-copy the following into the __main__ of InvertedIndex.py file :
-InvertedIndex1=InvertedIndex.InvertedIndex()
-        InvertedIndex1.ReadStopWords()
-        
-        for docID in range(1,448): 
-            InvertedIndex1.ReadData(docID)
-            InvertedIndex1.RemovePuncs()
-            InvertedIndex1.StopWordsRemoval()
-            InvertedIndex1.PorterStemmer()
-            II=InvertedIndex1.Dictionary(docID)
-
-        QT,ops=InvertedIndex1.QueryProcessing(output["name"])
-
-
-        PL=InvertedIndex1.Posting_Lists_Retrieval(QT)
-
-        data=InvertedIndex1.Posting_Lists_Intersect(PL,ops)  #This contains all the common DOCIDS;
-        # count=str(len(data))
-       
-        content=InvertedIndex1.Retrieve_File_Content(data)
-![rr](https://user-images.githubusercontent.com/29493186/158867974-29ba3044-16f1-4f71-887d-6a8eacf0ce13.png)
 
 
