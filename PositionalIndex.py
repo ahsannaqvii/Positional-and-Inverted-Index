@@ -105,8 +105,7 @@ class PositionalIndex:
 
         #Finding common DOCIDs and their respective positions list.
         intersect=set(word1).intersection(set(word2))
-      
-   
+         
         for i in intersect: 
 
             positionListW1=self.positional_Index[Query[0]][i] #this returns position list of Query1 word
