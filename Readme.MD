@@ -2,17 +2,8 @@
 
 ## Description
 While it’s amazing to use the search engine to fulfill your information need, it’s equally important for you to learn the mechanics behind it to obtain accurate results.The Boolean model is based on Boolean logic and set theory operations.The user query is transformed into a boolean expression , written either in conjunctive normal form or disjunctive normal form.Positional and Inverted indexing are different implementations of Boolean Model to resolve boolean queries.These indexing methods produce rankless documents but provides basis to models like Bi-Word indexes , Wild-card queries.
-### FOLLOW ME ON 
 
 
-**ahsannaqvii , Syed Ahsan** ,  [![Linkedin](https://i.stack.imgur.com/gVE0j.png  )](https://www.linkedin.com/in/ahsannaqvii/)
-&nbsp;
-<a href="https://github.com/ahsannaqvii"/>
-<img src="https://i.stack.imgur.com/gVE0j.png" alt="drawing" width="50"/>
-<img src="https://i.stack.imgur.com/tskMh.png" alt="drawing" width="50"/>
-
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/ahsannaqvii)
-## 
 ## About The Project
 This project is based on the implementation of various Boolean Models - Inverted Index and Positional Index in python.Furthermore , to visualize the models , its UI is developed on FLASK.
 
@@ -34,12 +25,6 @@ This project is based on the implementation of various Boolean Models - Inverted
 ![IRss3](https://user-images.githubusercontent.com/29493186/160458070-77a9497d-8620-4419-8bce-8a7be0595e2f.png)
 
 
-
-
-
-
-
-
 ## Steps to Execute the FLASK UI and the Positional and Inverted Index code
 _NOTE: The python implementation works together with UI._
 
@@ -54,5 +39,11 @@ To output the Indexes and Document on Flask UI:
 4. export FLASK_APP=app2.py
 5. FLASK_DEBUG=1 flask run_
 
-
+### FOLLOW ME ON 
+<a href="https://github.com/ahsannaqvii">
+         <img alt="Github" src="https://i.stack.imgur.com/tskMh.png"
+         width=50" height="40"/>
+<a href="https://www.linkedin.com/in/ahsannaqvii/">
+         <img alt="Linkedin" src="https://i.stack.imgur.com/gVE0j.png"
+         width=50" height="40"/>
 
