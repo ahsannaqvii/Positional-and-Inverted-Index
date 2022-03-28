@@ -1,6 +1,6 @@
-#Pairwise-Sequence-Alignment
+# Pairwise-Sequence-Alignment
 
-##Problem Statement
+# Problem Statement
 Positional and Inverted indexing are different implementations of Boolean Model to resolve boolean queries.These indexing methods produce rankless documents but provides basis to models like Bi-Word indexes , Wild-card queries.
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/ahsannaqvii/)
